@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.button-container button{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+body{
+  background: #78c4d7;
+}
+
+.content{
+  border-left: 5px solid #61dafb;
+  border-bottom: 1px solid black;
+}
+.back{
+  background-image:  linear-gradient(90deg,#4dc9e6,#210cac);
+}
+.gradient1{
+background-image:  linear-gradient(90deg,#4dc9e6,#210cac);
+}
+.gradient2{
+background-image: linear-gradient(180deg,#a9c9ff,#ffbbec);
+}
+.gradient3{
+  background-image: linear-gradient(45deg,#fa8bff,#2bd2ff 52%,#2bff88 90%) ;
+}
+.gradient4{
+  background-color: red;
+}
+
+.color1{
+background-color:  #dfdfdf;
+}
