@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/notehack/static/css/main.feb50a56.css",
+    "main.js": "/notehack/static/js/main.e681d85d.js",
+    "static/js/787.d7b1f44e.chunk.js": "/notehack/static/js/787.d7b1f44e.chunk.js",
+    "index.html": "/notehack/index.html",
+    "main.feb50a56.css.map": "/notehack/static/css/main.feb50a56.css.map",
+    "main.e681d85d.js.map": "/notehack/static/js/main.e681d85d.js.map",
+    "787.d7b1f44e.chunk.js.map": "/notehack/static/js/787.d7b1f44e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feb50a56.css",
+    "static/js/main.e681d85d.js"
+  ]
+}
