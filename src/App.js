@@ -27,7 +27,8 @@ import TodoList from './components/TodoList';
     return (
       <>
       <div className={`App p-5 ${backgroundColors}`}>
-      <div className='container row bg-white mt-5 p-1'>
+      <div className='container'>
+      <div className='row bg-white mt-5 p-1'>
       <div className='col text-start my-auto'>
       <h3>Note-Hack</h3>
       </div>
@@ -39,6 +40,8 @@ import TodoList from './components/TodoList';
     </div>
       </div>
       <TodoList />
+      </div>
+      
     </div>
     </>
     );
