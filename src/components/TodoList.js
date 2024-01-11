@@ -15,13 +15,11 @@ const TodoList = () => {
   const handleAddTodo = (e) => {
     e.preventDefault();
     if (editIndex !== null) {
-      // Modification du todo existant
       const updatedTodos = [...todos];
       updatedTodos[editIndex] = { text: newTodo, date: new Date() };
       setTodos(updatedTodos);
       setEditIndex(null);
     } else {
-      // Ajout d'un nouveau todo
       setTodos([...todos, { text: newTodo, date: new Date() }]);
     }
     setNewTodo('');

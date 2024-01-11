@@ -7,8 +7,8 @@ import TodoList from './components/TodoList';
 
 
   function App() {
-    const test = "back";
-    const [backgroundColors, setbackgroundColor] = useState(test);
+    // const test = "back";
+    const [backgroundColors, setbackgroundColor] = useState('gradient1');
     useEffect(() => {
       const storedColor = localStorage.getItem('backgroundColors');
       if (storedColor) {
@@ -26,8 +26,8 @@ import TodoList from './components/TodoList';
     }
     return (
       <>
-      <div className={`App container mt-5 p-5  ${backgroundColors}`}>
-      <div className='row bg-white'>
+      <div className={`App p-5 ${backgroundColors}`}>
+      <div className='container row bg-white mt-5 p-1'>
       <div className='col text-start my-auto'>
       <h3>Note-Hack</h3>
       </div>

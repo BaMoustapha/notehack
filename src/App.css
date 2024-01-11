@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -43,9 +44,7 @@
   margin-left: 10px;
 }
 
-body{
-  background: #78c4d7;
-}
+
 
 .content{
   border-left: 5px solid #61dafb;
@@ -54,16 +53,16 @@ body{
 .back{
   background-image:  linear-gradient(90deg,#4dc9e6,#210cac);
 }
-.gradient1{
+body .gradient1{
 background-image:  linear-gradient(90deg,#4dc9e6,#210cac);
 }
-.gradient2{
+body .gradient2{
 background-image: linear-gradient(180deg,#a9c9ff,#ffbbec);
 }
-.gradient3{
+body .gradient3{
   background-image: linear-gradient(45deg,#fa8bff,#2bd2ff 52%,#2bff88 90%) ;
 }
-.gradient4{
+body .gradient4{
   background-color: red;
 }
 
